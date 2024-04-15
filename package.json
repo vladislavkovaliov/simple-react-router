@@ -1,7 +1,7 @@
 {
-  "name": "semantic-release-template",
+  "name": "react-depsless-router",
   "version": "0.0.0-development",
-  "description": "Based configured template with Semantic Relase",
+  "description": "React router with no deps only context",
   "private": false,
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release"
   },
-  "keywords": ["semantic"],
+  "keywords": [
+    "semantic"
+  ],
   "author": "",
   "license": "ISC",
   "lint-staged": {
@@ -34,7 +36,7 @@
         {
           "npmPublish": false
         }
-      ],       
+      ],
       "@semantic-release/github"
     ]
   },
