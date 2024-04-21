@@ -1,6 +1,6 @@
 # Simple React Router
 
-Make simple to add basic navigation in React application.
+Make simple navigation to add basic navigation in React application.
 
 ## Example
 
