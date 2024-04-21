@@ -1,13 +1,13 @@
 {
-  "name": "react-depsless-router",
+  "name": "simple-react-router",
   "version": "0.0.0-development",
-  "description": "React router with no deps only context",
+  "description": "Simaple react router with no deps only context",
   "private": false,
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
-    "prepare": "./node_modules/.bin/husky install",
     "start": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc -p ts.providers.json",
     "serve": "vite preview",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
@@ -48,6 +48,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/vladislavkovaliov/semantic-release-template.git"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
   },
   "dependencies": {
     "@types/node": "^20.12.7",
