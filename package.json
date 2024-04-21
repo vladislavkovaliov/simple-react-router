@@ -7,7 +7,7 @@
   "types": "./types/index.d.ts",
   "scripts": {
     "start": "vite",
-    "build": "tsc -p ts.providers.json",
+    "build": "trm -rf dist & &sc -p ts.providers.json",
     "serve": "vite preview",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
@@ -16,7 +16,14 @@
     "semantic-release": "semantic-release"
   },
   "keywords": [
-    "semantic"
+    "react",
+    "react routering"
+  ],
+  "files": [
+    "dist",
+    "types",
+    "LICENSE",
+    "README.md"
   ],
   "author": "",
   "license": "ISC",
