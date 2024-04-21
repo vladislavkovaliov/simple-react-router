@@ -1,5 +1,5 @@
 {
-  "name": "simple-react-router",
+  "name": "@vvk/simple-react-router",
   "version": "0.0.0-development",
   "description": "Simaple react router with no deps only context",
   "private": false,
