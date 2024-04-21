@@ -34,7 +34,7 @@
       [
         "@semantic-release/npm",
         {
-          "npmPublish": false
+          "npmPublish": true
         }
       ],
       "@semantic-release/github"
@@ -47,7 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vladislavkovaliov/semantic-release-template.git"
+    "url": "https://github.com/vladislavkovaliov/simple-react-router.git"
   },
   "peerDependencies": {
     "react": "*",
